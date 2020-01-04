@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addAccountLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+
+    android:paddingBottom="20dp"
+    tools:context=".AddAccountActivity">
+
+
+    <TextView
+        android:id="@+id/pageTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page Title" />
+
+    <EditText
+        android:id="@+id/pageTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type Name of the Page"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/idView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID " />
+
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type Your Id"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/passwordView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type Your Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/accountConfirmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+</LinearLayout>
